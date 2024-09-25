@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Virtual Keyboard</title>
+</head>
+<body>
+    <div class="head">
+        <h1>Virtual Keyboard</h1>
+    </div>
+    
+    <div class="bodi">
+        <div class="container">
+            <textarea id="textArea" rows="4" cols="50" placeholder="Type here..."></textarea>
+            <div class="keyboard">
+                <div class="row">
+                    <button onclick="addCharacter('q')">Q</button>
+                    <button onclick="addCharacter('w')">W</button>
+                    <button onclick="addCharacter('e')">E</button>
+                    <button onclick="addCharacter('r')">R</button>
+                    <button onclick="addCharacter('t')">T</button>
+                    <button onclick="addCharacter('y')">Y</button>
+                    <button onclick="addCharacter('u')">U</button>
+                    <button onclick="addCharacter('i')">I</button>
+                    <button onclick="addCharacter('o')">O</button>
+                    <button onclick="addCharacter('p')">P</button>
+                </div>
+                <div class="row">
+                    <button onclick="addCharacter('a')">A</button>
+                    <button onclick="addCharacter('s')">S</button>
+                    <button onclick="addCharacter('d')">D</button>
+                    <button onclick="addCharacter('f')">F</button>
+                    <button onclick="addCharacter('g')">G</button>
+                    <button onclick="addCharacter('h')">H</button>
+                    <button onclick="addCharacter('j')">J</button>
+                    <button onclick="addCharacter('k')">K</button>
+                    <button onclick="addCharacter('l')">L</button>
+                </div>
+                <div class="row">
+                    <button onclick="addCharacter('z')">Z</button>
+                    <button onclick="addCharacter('x')">X</button>
+                    <button onclick="addCharacter('c')">C</button>
+                    <button onclick="addCharacter('v')">V</button>
+                    <button onclick="addCharacter('b')">B</button>
+                    <button onclick="addCharacter('n')">N</button>
+                    <button onclick="addCharacter('m')">M</button>
+                </div>
+                <div class="row">
+                    <button onclick="addCharacter(' ')">Space</button>
+                    <button onclick="backspace()">Back</button>
+                    <button onclick="clearText()">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
